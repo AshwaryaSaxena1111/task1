@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+}
+
+.color-div {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #FFFFFF;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#div1 {
+    top: 0;
+    left: 0;
+}
+
+#div2 {
+    top: 0;
+    right: 0;
+}
+
+#div3 {
+    bottom: 0;
+    left: 0;
+}
+
+#div4 {
+    bottom: 0;
+    right: 0;
+}
+
+#div5 {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
